@@ -1,0 +1,2 @@
+# Openmp
+Pruebas con Openmp
