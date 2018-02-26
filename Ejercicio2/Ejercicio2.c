@@ -36,7 +36,7 @@ double infNorm(double A[DIMN][DIMN], int n)
         s = 0;
         for (j = 0; j < n; j++)
             s += fabs(A[i][j]);
-        if (s > norm)
+        if (s > norm) // Pero no entiendo esta comparación
             //Restringe el uso de este código a un único hilo a la vez
             #pragma omp critical
             if (s > norm)
